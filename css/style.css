@@ -1,0 +1,194 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    color: #32325f;
+}
+
+.container {
+    max-width: 1140px;
+    width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 159px;
+}
+
+.brand{
+color: #95989a;
+font-size: 20px;
+font-weight: 700;
+text-transform: uppercase;
+}
+
+.hero{
+    padding-top: 70px;
+    padding-bottom: 190px;
+   background-color: #f4f5f7;
+}
+
+.social a{
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-text{
+    
+    width: 50%;
+}
+
+.subtitle{
+    font-weight: 400;
+    font-size: 20px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.title{
+    font-size: 48px;
+    display: block;
+    margin-bottom: 26px;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 26px;
+}
+
+.description{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+
+.price-tag{  
+margin-bottom: 20px;
+display: block;
+font-size: 20px;
+font-weight: 400;
+}
+
+.price{
+    display: block;
+    margin-bottom: 49px;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.btn{
+    text-decoration: none;
+    box-shadow: 0 3px 6px rgba(173, 173, 173, 0.16);
+    border-radius: 6px;
+    padding: 20px 30px;
+    color: #ffffff;
+    background-color: grey;
+}
+
+.btn-success{
+    background-color: #2dce89;
+    margin-right: 20px;
+}
+
+.btn-primary{
+    background-color: #5e72e4;
+}
+
+.section{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.section-subtitle{
+    font-size: 20px;
+    font-weight: 400;
+    display: block;
+    margin-bottom: 16px;
+}
+
+.section-title{
+    display: block;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.wrap{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.block{
+    width: 25%;
+    margin-right: 2%;
+}
+
+.block-text{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 40px 0;
+    line-height: 1.4;
+}
+
+.last-text{
+ margin-top: 90px;
+font-size: 20px;
+font-weight: 400;
+margin-bottom: 13px;
+}
+
+.last-bold-text{
+font-size: 48px;
+font-weight: 700;
+display: block;
+margin-bottom: 64px;
+}
+
+.photo{
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.people-section{
+    padding-top: 70px;
+    padding: 70px;
+background-color: #f4f5f7;
+}
+
+.footer{
+    background-color: #32325f;
+    color: #ffffff;
+    padding-bottom: 70px;
+    padding-top: 70px;
+}
+
+.footer-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-block{
+    width: 33%;
+}
+
+.footer-title{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.footer p{
+    line-height: 1.4;
+    margin-top: 35px;
+}
+
